@@ -1,0 +1,21 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.card{
+    background-image: linear-gradient(180deg,#130754 0%,#3b2f80 100%);
+    .search-icon{
+        padding: .7rem;
+        border-radius: 50%;
+    }
+}
+.img-element{
+    width: 50%;
+    object-fit: cover;
+}
+.icon{
+    width: 1.5rem;
+    margin-right: .5rem;
+}
